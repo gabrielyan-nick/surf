@@ -1,0 +1,1635 @@
+@media (max-width: 1650px) {
+  .slider-map {
+    max-width: 1100px;
+  }
+  .slider-map__dots--3 {
+    top: 325px;
+    left: 289px;
+  }
+  .slider-map__dots--4 {
+    top: 459px;
+    left: 376px;
+  }
+  .slider-map__dots--6 {
+    top: 526px;
+    left: 582px;
+  }
+  .slider-map__dots--1 {
+    top: 330px;
+    left: 0px;
+  }
+  .slider-map__dots--2 {
+    top: 297px;
+    left: 124px;
+  }
+  .slider-map__dots--5 {
+    top: 224px;
+    left: 498px;
+  }
+  .slider-map__dots--7 {
+    top: 401px;
+    left: 961px;
+  }
+  .slider-map__dots--8 {
+    top: 486px;
+    left: 981px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .slider-map__dots--1 {
+    .slider-dots__content {
+      transform: translateX(-5%);
+      &::before {
+        left: 14px;
+      }
+    }
+  }
+  .slider-dots__content::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .min-width1440 {
+    display: none;
+  }
+  .slider-item__info-title {
+    margin-bottom: 0;
+  }
+  .menu__list-item {
+    margin-bottom: 15px;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  .header__day {
+    font-size: 65px;
+    margin-bottom: 0;
+  }
+  .header__location {
+    margin-bottom: 25px;
+  }
+  .slider-dots__content::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1366px) {
+  .header__logo img {
+    width: 120px;
+  }
+  .header__title {
+    font-size: 140px;
+    top: -23px;
+  }
+  .slider-item__info-title {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .slider-item__info-subtitle {
+    font-size: 20px;
+  }
+  .header__location::before {
+    left: 5px;
+  }
+  .map {
+    width: 650px;
+    position: absolute;
+    top: -91px;
+    right: 0;
+  }
+  .north-line {
+    width: 384px;
+    position: absolute;
+    top: -327px;
+    right: 123px;
+  }
+  .north-dotb {
+    position: absolute;
+    top: 139px;
+    left: -416px;
+    width: 8px;
+    height: 8px;
+  }
+  .west-dotl {
+    position: absolute;
+    top: 200px;
+    left: -279px;
+    width: 4px;
+    height: 4px;
+  }
+  .svg-text__north {
+    position: absolute;
+    top: 122px;
+    left: -481px;
+    font-size: 10px;
+  }
+  .south-line {
+    position: absolute;
+    top: -287px;
+    right: -8px;
+    width: 397px;
+  }
+  .south-dotb {
+    position: absolute;
+    top: 302px;
+    left: -179px;
+    width: 8px;
+    height: 8px;
+  }
+  .svg-text__south {
+    position: absolute;
+    top: 321px;
+    left: -222px;
+    font-size: 10px;
+    width: 113px;
+  }
+  .east-line {
+    position: absolute;
+    top: -304px;
+    right: 31px;
+    width: 397px;
+  }
+  .east-dotb {
+    position: absolute;
+    top: 231px;
+    left: -225px;
+    width: 8px;
+    height: 8px;
+  }
+  .svg-text__east {
+    position: absolute;
+    top: 245px;
+    left: -273px;
+    font-size: 10px;
+    width: 113px;
+  }
+  .header__day {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .header__date {
+    margin-bottom: 5px;
+  }
+  .header__arrow {
+    left: 155px;
+  }
+  .slider-map {
+    max-width: 1000px;
+  }
+  .slider-map__dots--2 {
+    left: 108px;
+  }
+  .slider-map__dots--3 {
+    top: 325px;
+    left: 271px;
+  }
+  .slider-map__dots--4 {
+    top: 451px;
+    left: 345px;
+  }
+  .slider-map__dots--5 {
+    top: 230px;
+    left: 447px;
+  }
+  .slider-map__dots--6 {
+    top: 502px;
+    left: 528px;
+  }
+  .slider-map__dots--7 {
+    top: 392px;
+    left: 865px;
+  }
+  .slider-map__dots--8 {
+    top: 469px;
+    left: 898px;
+  }
+  .travel {
+    background-position: bottom -75px right;
+  }
+  .travel__airline-box {
+    background-size: contain;
+  }
+  .popup__content {
+    width: 30%;
+  }
+  .popup__close {
+    top: -5px;
+    right: -10px;
+  }
+  .popup input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .slider-dots {
+    max-width: 700px;
+  }
+  .slider-map {
+    max-width: 900px;
+    min-height: 530px;
+  }
+  .title {
+    margin-left: 120px;
+  }
+  .slider-map__dots--1 {
+    top: 278px;
+    left: -13px;
+    .slider-dots__content {
+      transform: translateX(-10%);
+      &::before {
+        left: 28px;
+      }
+    }
+  }
+  .slider-map__dots--2 {
+    top: 244px;
+    left: 97px;
+  }
+  .slider-map__dots--3 {
+    top: 270px;
+    left: 248px;
+  }
+  .slider-map__dots--4 {
+    top: 270px;
+    left: 248px;
+  }
+  .slider-map__dots--5 {
+    top: 185px;
+    left: 402px;
+  }
+  .slider-map__dots--6 {
+    top: 433px;
+    left: 476px;
+  }
+  .slider-map__dots--7 {
+    top: 330px;
+    right: 92px;
+  }
+  .slider-map__dots--8 {
+    top: 396px;
+    right: 65px;
+    .slider-dots__content {
+      transform: translateX(-53%);
+      &::before {
+        left: 150px;
+      }
+    }
+  }
+  .slider-box__inner {
+    min-height: 600px;
+  }
+  .btn {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .slider-box__title {
+    font-size: 35px;
+    line-height: 35px;
+    padding: 45px 0 0 40px;
+  }
+  .btn span {
+    padding: 13px 43px 13px 13px;
+    margin-left: 10px;
+  }
+  .slider-map__dots--7 {
+    top: 327px;
+    left: 779px;
+  }
+  .slider-map__dots--8 {
+    top: 399px;
+    left: 810px;
+  }
+  .slider-map__dots--4 {
+    top: 404px;
+    left: 295px;
+  }
+  .travel {
+    padding-bottom: 170px;
+    padding-top: 0px;
+  }
+  .travel__slider-info-subtitle {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .travel__slider-info-title {
+    font-size: 16px;
+  }
+  .travel__slider-info {
+    gap: 25px;
+  }
+  .travel__slider-info-subtitle span {
+    right: 17px;
+  }
+  .travel__slider-img {
+    min-height: 700px;
+  }
+  .sleep::before {
+    right: -9px;
+    width: 373px;
+    height: 305px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 24%;
+  }
+  .sleep {
+    background-size: 145px;
+  }
+  .shop__product-extras-items {
+    gap: 30px;
+  }
+  .shop__product-photos {
+    gap: 30px;
+    padding-right: 50px;
+  }
+  .shop__slider-item {
+    gap: 0;
+  }
+  .shop__product-descr {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .slider-map {
+    max-width: 800px;
+  }
+
+  .slider-map__dots--2 {
+    top: 242px;
+    left: 77px;
+  }
+  .slider-map__dots--3 {
+    top: 267px;
+    left: 216px;
+  }
+  .slider-map__dots--4 {
+    top: 369px;
+    left: 279px;
+  }
+  .slider-map__dots--5 {
+    top: 193px;
+    left: 356px;
+  }
+  .slider-map__dots--6 {
+    top: 417px;
+    left: 423px;
+  }
+  .slider-map__dots--7 {
+    top: 317px;
+    left: 689px;
+  }
+  .slider-map__dots--8 {
+    top: 382px;
+    left: 721px;
+  }
+  .travel__slider-info {
+    flex-wrap: wrap;
+    gap: 0;
+    column-gap: 200px;
+  }
+  .travel__slider-info-item:nth-child(3) {
+    margin-left: 40px;
+  }
+  .travel__slider-info-item {
+    width: 300px;
+  }
+  .travel__slider-info-subtitle span {
+    right: 78px;
+  }
+  .sleep::before {
+    bottom: 36%;
+  }
+  .sleep {
+    .travel__slider-info-item:nth-child(3) {
+      order: 1;
+      margin-left: 0;
+    }
+    .travel__slider-info-item:nth-child(4) {
+      margin-left: 30px;
+    }
+  }
+  .shop__product-extras-items {
+    flex-direction: column;
+    gap: 0;
+  }
+  .shop__product-photos {
+    gap: 100px;
+    padding-right: 70px;
+  }
+  .shop__product-extras-title {
+    display: none;
+  }
+  .travel__airline {
+    width: 40%;
+    top: -55px;    
+  }
+}
+
+@media (max-width: 1000px) {
+  .slider-item__info-title {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .slider-item__info-subtitle {
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 10px;
+  }
+  .slider-dots {
+    max-width: 65%;
+  }
+  .slider-dots__name {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .slider-dots__num {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .slider-item__info {
+    right: 40px;
+  }
+  .slider-dots {
+    right: 40px;
+  }
+  .slider__arrows {
+    right: 40px;
+  }
+  .header .slider__arrows {
+    right: 40px;
+  }
+
+  .map {
+    width: 650px;
+    position: absolute;
+    top: -61px;
+    right: -131px;
+  }
+  .north-line {
+    width: 384px;
+    position: absolute;
+    top: -297px;
+    right: -10px;
+  }
+  .north-dotb {
+    position: absolute;
+    top: 169px;
+    left: -283px;
+    width: 8px;
+    height: 8px;
+  }
+  .west-dotl {
+    position: absolute;
+    top: 230px;
+    left: -148px;
+    width: 4px;
+    height: 4px;
+  }
+  .svg-text__north {
+    position: absolute;
+    top: 152px;
+    left: -350px;
+    font-size: 10px;
+  }
+  .south-line {
+    position: absolute;
+    top: -257px;
+    right: -137px;
+    width: 397px;
+  }
+  .south-dotb {
+    position: absolute;
+    top: 332px;
+    left: -52px;
+    width: 8px;
+    height: 8px;
+  }
+  .svg-text__south {
+    position: absolute;
+    top: 351px;
+    left: -120px;
+    font-size: 10px;
+    width: 113px;
+  }
+  .east-line {
+    position: absolute;
+    top: -274px;
+    right: -100px;
+    width: 397px;
+  }
+  .east-dotb {
+    position: absolute;
+    top: 261px;
+    left: -93px;
+    width: 8px;
+    height: 8px;
+  }
+  .svg-text__east {
+    position: absolute;
+    top: 275px;
+    left: -163px;
+    font-size: 10px;
+    width: 113px;
+  }
+  .header__slider-item:nth-child(1),
+  .header__slider-item:nth-child(2),
+  .header__slider-item:nth-child(4) {
+    box-shadow: inset 0px 0px 200px 100px #171919;
+  }
+
+  .title h3 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .surf__title::before {
+    left: 72px;
+  }
+  .title span {
+    font-size: 120px;
+    line-height: 120px;
+    left: -152px;
+    top: 14px;
+  }
+  .subtitle {
+    padding-right: 40px;
+  }
+  .subtitle-left {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .descr-title {
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 65px;
+    margin-top: 0px;
+  }
+  .slider-map {
+    max-width: 780px;
+    min-height: 500px;
+  }
+  .slider-map__dots--1 {
+    top: 258px;
+    left: -11px;
+  }
+  .slider-map__dots--2 {
+    top: 237px;
+    left: 81px;
+  }
+  .slider-map__dots--3 {
+    top: 251px;
+    left: 208px;
+  }
+  .slider-map__dots--4 {
+    top: 367px;
+    left: 260px;
+  }
+  .slider-map__dots--5 {
+    top: 183px;
+    left: 340px;
+  }
+  .slider-map__dots--6 {
+    top: 395px;
+    left: 412px;
+  }
+  .slider-map__dots--7 {
+    top: 305px;
+    right: 85px;
+  }
+  .slider-map__dots--8 {
+    top: 367px;
+    right: 54px;
+  }
+  .slider-box__location {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .travel__slider-item .slider__arrows {
+    right: 40px;
+  }
+  .travel__airline-box {
+    background-size: 350px;
+    background-position: right bottom 65px;
+  }
+  .travel {
+    background-position: bottom right;
+    background-size: 220px;
+  }
+  .shop .shop__plus-text::before {
+    display: none;
+  }
+  .shop .shop__plus-text {
+    font-size: 19px;
+    line-height: 19px;
+    width: 203px;
+  }
+  .shop .shop__plus-text1 {
+    top: 155px;
+    right: -132px;
+  }
+  .shop .shop__plus-text2 {
+    left: 28px;
+    top: 240px;
+  }
+  .shop .shop__plus-text3 {
+    left: 79px;
+    bottom: 97px;
+  }
+  .shop__slider-item:nth-child(3) {
+    .shop__plus-text1 {
+      top: 135px;
+    }
+    .shop__plus-text2 {
+      left: 7px;
+    }
+    .shop__plus-text:hover {
+      color: #3caf93;
+    }
+  }
+  .shop__slider-item:nth-child(4) {
+    .shop__plus-text1 {
+      top: 174px;
+      right: -133px;
+    }
+    .shop__plus-text2 {
+      left: 7px;
+    }
+    .shop__plus-text:hover {
+      color: #3caf93;
+    }
+  }
+  .shop__slider-item:nth-child(5) {
+    .shop__plus-text1 {
+      top: 178px;
+      right: -159px;
+    }
+    .shop__plus-text2 {
+      left: 47px;
+      top: 263px;
+    }
+    .shop__plus-text3 {
+      left: -7px;
+      bottom: 78px;
+    }
+    .shop__plus-text:hover {
+      color: #3caf93;
+    }
+  }
+  .shop__product-photos {
+    gap: 50px;
+    padding-right: 40px;
+  }
+  .shop .slider__arrows {
+    right: 40px;
+  }
+  .shop__product-descr {
+    width: 50%;
+  }
+  .popup__content {
+    width: 40%;
+  }
+  .popup__title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .form__btn {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 930px) {
+  .slider-map {
+    max-width: 85%;
+  }
+  .slider-dots__content::before {
+    display: none;
+  }
+  .slider-map__dots--1,
+  .slider-map__dots--2,
+  .slider-map__dots--3,
+  .slider-map__dots--4,
+  .slider-map__dots--5,
+  .slider-map__dots--6,
+  .slider-map__dots--7,
+  .slider-map__dots--8 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    right: 50%;
+  }
+  .slider-dots__circle {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .slider-map__dots--2::before {
+    display: none;
+  }
+  .slider-map__dots--8,
+  .slider-map__dots--1 {
+    .slider-dots__content {
+      transform: translateX(-45%);
+    }
+  }
+  .slider-map {
+    min-height: 460px;
+  }
+  .surf__slider {
+    padding-top: 70px;
+  }
+  .surf__slider .slider__arrows {
+    top: 15px;
+  }
+  .slider-box__inner {
+    min-height: 550px;
+  }
+  .slider-box__location {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .descr-box {
+    padding-left: 40px;
+  }
+  .travel__slider-info {
+    column-gap: 100px;
+    margin-top: 60px;
+  }
+  .travel__airline-box {
+    top: 520px;
+  }
+  .shop__product-price {
+    padding-left: 40px;
+  }
+  .shop__product-btn {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 830px) {
+  .header__map {
+    display: none;
+  }
+  .header__title {
+    font-size: 103px;
+    top: -66px;
+  }
+  .slider-dots__num {
+    display: none;
+  }
+  .header__slider-item:nth-child(1),
+  .header__slider-item:nth-child(2),
+  .header__slider-item:nth-child(4) {
+    box-shadow: inset 0px 0px 200px 40px #171919;
+  }
+  .title h3 {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .title {
+    margin-left: 70px;
+  }
+  .surf__title::before {
+    left: 50px;
+  }
+  .title span {
+    font-size: 90px;
+    line-height: 90px;
+    left: -93px;
+    top: 14px;
+  }
+  .subtitle {
+    padding-right: 40px;
+  }
+  .subtitle-left {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .descr-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 53px;
+    margin-top: 0px;
+  }
+  .surf {
+    background-size: 90px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+  .travel__airline-box {
+    background-size: 270px;
+  }
+  .travel__slider {
+    margin-top: 10px;
+  }
+  .subtitle-right {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .sleep::before {
+    bottom: 37%;
+    width: 270px;
+  }
+  .shop__product-photos {
+    gap: 5px;
+  }
+  .shop__board {
+    width: 100%;
+  }
+  .shop .shop__plus:nth-child(4) {
+    right: 145px;
+  }
+  .shop__product-extras-item img {
+    width: 60%;
+  }
+  .shop__product-extras-item p {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+  }
+  .shop__product-extras-item span {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .travel__slider-info {
+    column-gap: 0;
+  }
+  .travel {
+    padding-bottom: 100px;
+    background-size: 150px;
+  }
+  .sleep {
+    background-size: 100px;
+    .travel__airline-title img {
+      margin-left: -3px;
+    }
+  }
+  .sleep::before {
+    bottom: 36%;
+    width: 244px;
+    height: 204px;
+    right: 0;
+  }
+  .shop__slider-item:nth-child(5) .shop__board {
+    width: 105%;
+  }
+  .shop .shop__plus:nth-child(4) {
+    right: 115px;
+  }
+  .shop .shop__plus-text3 {
+    left: 25px;
+  }
+  .shop__product-photos {
+    padding-right: 5px;
+    gap: 0;
+  }
+  .travel__airline {
+    top: -55px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__arrow {
+    display: none;
+  }
+  .slider-dots {
+    gap: 15px;
+    max-width: 50%;
+  }
+  .slider-dots__name {
+    display: none;
+  }
+  .slider-item__info-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .travel__airline-box {
+    background-position: right top -51px;
+  }
+  .travel__slider {
+    margin-top: 0;
+  }
+  .travel__slider-info-item {
+    width: 260px;
+  }
+  .travel__slider-info {
+    column-gap: 20px;
+  }
+  .travel__slider-info-subtitle span {
+    right: 40px;
+    font-size: 13px;
+  }
+  .popup__content {
+    padding: 15px;
+    width: 50%;
+  }
+  .popup .popup__title-s {
+    display: block;
+    font-size: 21px;
+    line-height: 21px;
+    padding-right: 18px;
+  }
+  .popup__title {
+    display: none;
+  }
+  .form {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .slider-map {
+    min-height: 360px;
+  }
+  .surf__slider {
+    padding-top: 35px;
+  }
+  .surf .slider__arrows {
+    top: 0px;
+    right: 40px;
+  }
+  .slider-box__inner {
+    min-height: 500px;
+  }
+  .slider-box__location {
+    letter-spacing: 6px;
+  }
+  .travel__slider-info-subtitle {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .travel__slider-info-subtitle span {
+    right: 59px;
+  }
+  .travel__slider-info-title {
+    letter-spacing: 5px;
+    top: 98px;
+  }
+  .travel__slider-info-subtitle span {
+    font-size: 12px;
+    right: 32px;
+  }
+  .travel__slider-info-item {
+    width: 234px;
+  }
+  .shop .descr-title {
+    line-height: 34px;
+    margin-top: 11px;
+    font-size: 30px;
+  }
+  .shop .shop__plus-text1 {
+    top: 147px;
+    right: -16px;
+  }
+  .shop .shop__plus-text {
+    font-size: 16px;
+    line-height: 16px;
+    width: 142px;
+  }
+  .shop__slider-item:nth-child(4) .shop__plus-text1 {
+    top: 154px;
+    right: -55px;
+  }
+  .shop__slider-item:nth-child(5) .shop__plus-text1 {
+    top: 183px;
+    right: -60px;
+    width: 55%;
+  }
+  .shop__slider-item:nth-child(5) .shop__plus-text3 {
+    left: 11px;
+    bottom: 101px;
+  }
+}
+
+@media (max-height: 640px) {
+  .header__aside {
+    flex-direction: row;
+    border: none;
+  }
+  .menu__list {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    margin-left: 40px;
+  }
+  .header__logo {
+    position: relative;
+  }
+  .header__date {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+  }
+  .header__location {
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    &::before {
+      left: -20px;
+    }
+  }
+  .header__slider-item:nth-child(1),
+  .header__slider-item:nth-child(2),
+  .header__slider-item:nth-child(4) {
+    box-shadow: inset 0px 0px 200px 40px #171919;
+  }
+}
+
+@media (max-width: 600px) {
+  .travel__slider-info {
+    column-gap: 10px;
+  }
+  .shop__product-photo-extras {
+    display: none;
+  }
+  .shop__product-photo-surf {
+    max-width: 190px;
+  }
+  .shop__product-photos {
+    margin-right: 10%;
+  }
+  .shop .slider__arrows {
+    top: 350px;
+  }
+}
+
+@media (max-width: 580px) {
+  .header__date {
+    display: none;
+  }
+  .header__location {
+    display: none;
+  }
+  .menu__list {
+    flex-direction: column;
+  }
+  .header__aside {
+    flex-direction: column;
+    border-right: 1px solid rgba(255, 255, 255, 0.247);
+  }
+  .header__logo img {
+    width: 80px;
+  }
+  .menu {
+    height: 60%;
+  }
+  .menu__list {
+    margin-left: 0;
+    align-items: center;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+  }
+  .svg-menu {
+    width: 50px;
+  }
+  .menu__list-item {
+    height: 70px;
+    margin-bottom: 0;
+    &:nth-child(2) {
+      height: 55px;
+    }
+  }
+  .menu {
+    margin-top: 0;
+  }
+  .slider-item__info {
+    right: 20px;
+  }
+  .header .slider__arrows {
+    right: 20px;
+  }
+  .slider__arrows {
+    right: 20px;
+  }
+  .slider-dots {
+    right: 20px;
+  }
+  .travel__slider-item:nth-child(2) .travel__slider-img,
+  .travel__slider-item:nth-child(3) .travel__slider-img,
+  .travel__slider-item:nth-child(4) .travel__slider-img {
+    box-shadow: inset -130px 0px 170px 50px #171919;
+  }
+}
+
+@media (max-height: 550px) {
+  .slider-dots {
+    bottom: 20px;
+  }
+  .slider-item__info {
+    bottom: 80px;
+  }
+  .slider-item__info-title {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .header__day {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .svg-text__south {
+    position: absolute;
+    top: 311px;
+    left: -135px;
+    font-size: 10px;
+    width: 113px;
+  }
+}
+
+@media (max-width: 520px) {
+  .slider-item__info {
+    width: 55%;
+  }
+  .header__title {
+    font-size: 93px;
+    top: -114px;
+  }
+  .slider-item__info-title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .slider-item__info-subtitle {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 0;
+    &::before {
+      display: none;
+    }
+  }
+  .title h3 {
+    font-size: 47px;
+    line-height: 47px;
+  }
+  .title {
+    margin-left: 40px;
+  }
+  .surf__title::before {
+    left: 31px;
+  }
+  .title span {
+    font-size: 61px;
+    line-height: 61px;
+    left: -49px;
+    top: 14px;
+  }
+  .subtitle {
+    padding-right: 40px;
+  }
+  .subtitle-left {
+    font-size: 13px;
+    line-height: 13px;
+    &::before {
+      display: none;
+    }
+  }
+  .descr-title {
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 45px;
+    margin-top: 0px;
+  }
+  .slider-box__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .btn {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .btn span {
+    padding: 10px 40px 10px 10px;
+    margin-left: 8px;
+    &::before {
+      width: 17px;
+      top: 25px;
+    }
+    &::after {
+      right: 8px;
+      top: 11px;
+    }
+  }
+  .slider-box__inner {
+    min-height: 453px;
+  }
+  .slider-box__location {
+    bottom: 63px;
+  }
+  .slider-box__location {
+    letter-spacing: 5px;
+  }
+  .subtitle-left {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+  }
+  .descr-title {
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 32px;
+  }
+  .surf__subtitle {
+    margin-top: 10px;
+  }
+  .slider-map {
+    min-height: 340px;
+  }
+  .slider-dots__content {
+    bottom: 10px;
+  }
+  .subtitle-right::before {
+    display: none;
+  }
+  .travel__airline-box {
+    background-position: right top -32px;
+    background-size: 225px;
+  }
+  .travel__airline-title img {
+    width: 40px;
+  }
+  .travel__airline-box {
+    top: 460px;
+  }
+  .travel__slider-info {
+    margin-top: -10px;
+  }
+  .travel__slider-info-subtitle {
+    font-size: 27px;
+    line-height: 27px;
+  }
+  .travel__slider-info-title {
+    font-size: 14px;
+  }
+  .travel__slider-info-subtitle span {
+    font-size: 10px;
+    right: 29px;
+    letter-spacing: 3.25px;
+  }
+  .travel__slider-info-item {
+    width: 204px;
+    min-height: 170px;
+  }
+  .descr-box {
+    padding-left: 40px;
+  }
+  .travel__slider-subtitle {
+    top: 50px;
+  }
+  .travel__slider-img {
+    background-position: left top 70px;
+  }
+  .travel__airline-box {
+    top: 375px;
+  }
+  .travel__slider-img {
+    min-height: 585px;
+  }
+  .travel__slider-info-title {
+    left: -105px;
+  }
+  .travel__slider-info-subtitle {
+    padding-left: 20px;
+    font-size: 24px;
+  }
+  .travel__slider-info-subtitle span {
+    right: 26px;
+  }
+  .travel__slider-info-item {
+    width: 166px;
+  }
+  .travel {
+    background-size: 110px;
+    .travel__slider-info-item:nth-child(2) {
+      min-height: 130px;
+    }
+  }
+  .travel__airline-box {
+    top: 344px;
+  }
+  .travel__slider-img {
+    min-height: 540px;
+  }
+  .travel__slider-info-item {
+    min-height: 150px;
+  }
+  .btn {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .travel {
+    background-position: bottom 136px right;
+  }
+  .sleep {
+    background-size: 85px;
+    .travel__airline-title img {
+      width: 105px;
+    }
+    .travel__slider-img {
+      min-height: 520px;
+    }
+  }
+  .sleep::before {
+    width: 160px;
+    height: 134px;
+    bottom: 43%;
+  }
+  .sleep .travel__slider-info-item {
+    width: 163px;
+  }
+  .shop .descr-title {
+    line-height: 26px;
+    margin-top: 10px;
+    font-size: 23px;
+  }
+  .shop__product-price span {
+    font-size: 29px;
+    line-height: 29px;
+    padding-left: 0;
+  }
+  .shop__product-price img {
+    margin-left: -20px;
+  }
+  .shop__product-photos {
+    margin-right: 5%;
+  }
+  .shop__slider-item:nth-child(4) .shop__plus-text1 {
+    top: 161px;
+    right: -22px;
+    color: #3caf93;
+  }
+  .shop__slider-item:nth-child(5) .shop__plus-text1 {
+    color: #3caf93;
+  }
+  .subtitle {
+    padding-right: 15px;
+  }
+  .travel__slider-item .slider__arrows {
+    top: 20px;
+    right: 40px;
+  }
+  .shop {
+    padding-top: 160px;
+    .slider__arrows {
+      top: 230px;
+    }
+  }
+  .popup__content {
+    width: 70%;
+  }
+  .form__btn {
+    width: 115px;
+    height: 45px;
+  }
+}
+@media (max-height: 480px) {
+  .header__logo img {
+    width: 80px;
+  }
+  .header__title {
+    font-size: 75px;
+    top: -121px;
+  }
+  .header__day {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .header__date {
+    left: 13px;
+  }
+  .header__location {
+    bottom: -14px;
+    left: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .descr-title {
+    font-size: 21px;
+  }
+  .travel__airline-box {
+    background-size: 190px;
+  }
+  .sleep::before {
+    bottom: 49%;
+  }
+  .shop__slider-item {
+    flex-direction: column;
+  }
+  .shop__product-descr {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 90px;
+  }
+  .shop__product-price {
+    padding-left: 25px;
+    margin-top: 0;
+  }
+  .shop__product-btn {
+    padding-left: 125px;
+    margin-top: 40px;
+  }
+  .shop .slider__arrows {
+    top: 300px;
+  }
+  .shop__product-photos {
+    margin-right: 0;
+    padding-right: 0;
+    align-self: center;
+    margin-top: 55px;
+  }
+  .shop .slider__arrows {
+    top: 220px;
+    right: 20px;
+  }
+  .footer .btn {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .shop__product-photos {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .shop__product-photo-extras {
+    display: flex;
+  }
+  .shop__product-extras-items {
+    flex-direction: row;
+  }
+  .shop__product-photo-surf {
+    margin-left: 45px;
+  }
+  .shop__product-extras-item img {
+    width: 80%;
+  }
+  .shop__product-extras-item:nth-child(2) {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .shop__product-price {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .travel__slider-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .travel__slider-info-item:nth-child(3) {
+    margin-left: 0;
+  }
+  .travel__slider-info {
+    align-content: flex-start;
+  }
+  .travel__slider-info-item {
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+    &:nth-child(2) {
+      margin-left: 50px;
+    }
+    &:nth-child(3) {
+      margin-left: 100px;
+    }
+    &:nth-child(4) {
+      margin-left: 150px;
+    }
+  }
+  .travel__slider-info {
+    margin-bottom: 20px;
+  }
+  .travel__slider-img {
+    min-height: 450px;
+  }
+  .travel__airline-box {
+    top: 279px;
+  }
+  .travel__airline-title img {
+    margin-left: 13px;
+  }
+  .sleep::before {
+    bottom: 52%;
+  }
+  .sleep {
+    background-position: right bottom 80px;
+    .travel__slider-img {
+      min-height: 450px;
+    }
+    .travel__slider-info-item:nth-child(1) {
+      min-height: 130px;
+    }
+    .travel__slider-info-item:nth-child(2) {
+      margin-left: 50px;
+    }
+    .travel__slider-info-item:nth-child(3) {
+      margin-left: 100px;
+      order: 0;
+    }
+    .travel__slider-info-item:nth-child(4) {
+      margin-left: 150px;
+    }
+  }
+  .shop__product-descr {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .shop__product-price {
+    padding-left: 0;
+    margin-top: 13px;
+  }
+  .shop__product-btn {
+    padding-left: 0;
+    margin-top: 33px;
+  }
+  .descr-box {
+    padding-left: 20px;
+  }
+  .shop__product-extras-item p {
+    letter-spacing: 1px;
+  }
+  .popup__content {
+    width: 90%;
+  }
+}
+@media (max-width: 350px) {
+  .surf {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .travel {
+    background-size: 73px;
+  }
+  .sleep::before {
+    bottom: 62%;
+  }
+  .shop__product-extras-item:nth-child(2) {
+    margin-top: 24px;
+  }
+  .footer {
+    padding-top: 200px;
+  }
+}
+@media (max-height: 320px) {
+  .header__date {
+    display: none;
+  }
+  .header__location {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .travel__slider-info-item {
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+    &:nth-child(2) {
+      margin-left: 30px;
+    }
+    &:nth-child(3) {
+      margin-left: 60px;
+    }
+    &:nth-child(4) {
+      margin-left: 90px;
+    }
+  }
+  .shop .shop__plus:nth-child(2) {
+    top: 165px;
+  }
+  .shop .shop__plus-text1 {
+    top: 111px;
+  }
+  .shop .shop__plus:nth-child(4) {
+    right: 80px;
+    top: 245px;
+  }
+  .shop .shop__plus-text2 {
+    top: 191px;
+  }
+  .shop__slider-item:nth-child(3) .shop__plus-text1 {
+    top: 93px;
+  }
+
+  .shop__slider-item:nth-child(4) .shop__plus-text1 {
+    top: 128px;
+    right: -86px;
+  }
+  .shop__slider-item:nth-child(5) .shop__plus-text1 {
+    top: 147px;
+    right: -23px;
+  }
+  .shop__slider-item:nth-child(5) .shop__plus-text2 {
+    left: 31px;
+    top: 222px;
+  }
+  .shop__slider-item:nth-child(5) .shop__plus-text3 {
+    color: #3caf93;
+  }
+}

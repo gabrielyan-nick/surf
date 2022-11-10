@@ -1,0 +1,20 @@
+{
+    "resorts": [{
+            "name": "Siargao",
+            "price": "$289"
+        },
+        {
+            "name": "Australia",
+            "price": "$349"
+        },
+        {
+            "name": "Hossegor",
+            "price": "$249"
+        },
+        {
+            "name": "Malibu",
+            "price": "$370"
+        }
+    ],
+    "requests": []
+}

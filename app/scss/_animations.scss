@@ -1,0 +1,119 @@
+@keyframes fadeIn {
+    from {
+       opacity: 0.3;
+
+    }
+    to {
+        opacity: 1;
+  
+    }
+  }
+  .fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+  }
+
+  @keyframes fadeIn2 {
+    from {
+       opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+  
+    }
+  }
+  .fadeIn2 {
+    animation-name: fadeIn2;
+    animation-duration: 0.3s;
+  }
+  
+  @keyframes fadeOut {
+    from {
+       opacity: 1;
+    }
+    to {
+        opacity: 0.3;
+    }
+  }
+  .fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 1s;
+  }
+
+  @keyframes fadeOut2 {
+    from {
+       opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+  }
+  .fadeOut2 {
+    animation-name: fadeOut2;
+    animation-duration: 0.5s;
+  }
+
+  @-webkit-keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .animate__fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+  }
+
+  @-webkit-keyframes slideOutRight {
+    from {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+  @keyframes slideOutRight {
+    from {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+  .slideOutRight {
+    -webkit-animation-name: slideOutRight;
+    animation-name: slideOutRight;
+  }
