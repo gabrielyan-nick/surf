@@ -1,6 +1,6 @@
 export default function scroll() {
   let links = document.querySelectorAll('[href^="#"]'),
-    speed = 0.2;
+    speed = 0.4;
 
   links.forEach((link) => {
     link.addEventListener("click", function (e) {

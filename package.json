@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "json-server": "^0.17.0",
+    "node": "^14.21.2",
+    "node-sass": "^8.0.0",
     "slick-carousel": "^1.8.1"
   }
 }
