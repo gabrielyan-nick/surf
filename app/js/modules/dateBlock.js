@@ -19,7 +19,7 @@ export default class DateBlock {
 
   render() {
     this.dayBlock.innerHTML = this.addZero(this.day);
-    this.monthBlock.innerHTML = this.addZero(this.month);
+    this.monthBlock.innerHTML = this.addZero(this.month + 1);
     this.yearBlock.innerHTML = this.year;
   }
 }
