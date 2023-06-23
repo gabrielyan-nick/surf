@@ -1,15 +1,15 @@
 # Surf project
 
 Проект сверстан по макету [Вадима Прокопчука](https://www.youtube.com/@vadymprokopchuk).
-Все слайдеры и анимации реализованы без помощи библиотек. Данные о курортах загружаются из json файла.
+Все слайдеры и анимации реализованы без помощи библиотек. Данные о курортах загружаются с сервера.
 
 
-[Деплой на Heroku](https://surf-project13.herokuapp.com/)
+[Деплой на Vercel](https://surf-omega.vercel.app/)
 
 **Stack:**
 
+- HTML
 - JS
 - SCSS
-- json-server
 - gulp
 
