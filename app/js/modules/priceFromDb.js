@@ -6,7 +6,7 @@ export default class PriceFromDb {
     }
   
     getPrice() {
-      getData("http://localhost:3000/resorts").then((data) => {
+      getData("https://json-server-abjv.onrender.com/resorts").then((data) => {
         data.forEach((item, i) => {
             this.priceNode.forEach((node, j) => {
                 if (node.getAttribute('data-name') == item.name) {

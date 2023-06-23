@@ -79,7 +79,7 @@ export default class Form {
         const formData = new FormData(form);
         const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-        postData("http://localhost:3000/requests", json)
+        postData("https://json-server-abjv.onrender.com/requests-surf", json)
           .then((res) => {
             console.log(res);
             statusImg.setAttribute("src", this.messageObj.ok);

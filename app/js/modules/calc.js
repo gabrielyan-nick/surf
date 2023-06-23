@@ -24,7 +24,7 @@ export default class Calc {
   getRes() {
     let price;
     let sum;
-    getData("http://localhost:3000/resorts").then((data) => {
+    getData("https://json-server-abjv.onrender.com/resorts").then((data) => {
       data.forEach((item) => {
         if (item.name == this.sumNode.getAttribute("data-name")) {
           price = +item.price.replace(/\D/g, "");
